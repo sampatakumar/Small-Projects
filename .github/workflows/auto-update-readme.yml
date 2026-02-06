@@ -1,0 +1,32 @@
+name: Auto Update README Projects Table
+
+on:
+  push:
+    paths:
+      - "smallprojects/**"
+      - "scripts/**"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Generate Projects Table
+        run: node scripts/generateProjects.js
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update projects table"
