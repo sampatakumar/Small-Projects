@@ -12,10 +12,39 @@ body {
   justify-content: center;
   align-items: center;
   cursor: none;
+  overflow: hidden; /*for removing the scrollbar*/
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  z-index: 99;
+  position: relative;
+  cursor: none;
+  margin: 0;
+}
+
+h1 span {
+  position: relative;
+  display: inline-block;
+  color: #2696e8;
+  animation: animate 2s linear infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .cursor {
-  z-index: 999;
+  z-index: 1;
   position: fixed;
   background: #2696e8;
   width: 20px;
