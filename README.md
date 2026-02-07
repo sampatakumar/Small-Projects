@@ -8,9 +8,9 @@ A collection of small frontend experiments focused on **UI/UX**, **animations**,
 
 <!-- PROJECTS_TABLE_START -->
 
-| # | Project | Description | Tech & Demo |
-|---|--------|-------------|-------------|
-| 1 | **Cursor Animation** | Custom animated cursor with smooth motion and hover effects | ![https://img.shields.io/badge/HTML5-orange?logo=html5](https://img.shields.io/badge/HTML5-orange?logo=html5) ![https://img.shields.io/badge/CSS3-blue?logo=css3](https://img.shields.io/badge/CSS3-blue?logo=css3) ![https://img.shields.io/badge/JavaScript-yellow?logo=javascript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript) [Live](https://sampatakumar.github.io/Small-Projects/smallprojects/cursoranimation/index.html) |
+| #   | Project              | Description                                                 | Tech & Demo                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --- | -------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Cursor Animation** | Custom animated cursor with smooth motion and hover effects | ![https://img.shields.io/badge/HTML5-orange?logo=html5](https://img.shields.io/badge/HTML5-orange?logo=html5) ![https://img.shields.io/badge/CSS3-blue?logo=css3](https://img.shields.io/badge/CSS3-blue?logo=css3) ![https://img.shields.io/badge/JavaScript-yellow?logo=javascript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript) [Live](https://sampatakumar.github.io/Small-Projects/smallprojects/cursoranimation/index.html) |
 
 <!-- PROJECTS_TABLE_END -->
 
@@ -39,7 +39,7 @@ This repository is created to:
 Frontend Developer
 
 🌐 Portfolio: [https://sampatakumar.github.io](https://sampatakumar.github.io)  
-🐙 GitHub: [https://github.com/SAMPATAKUMAR](https://github.com/SAMPATAKUMAR)
+🐙 GitHub: [https://github.com/sampatakumar](https://github.com/sampatakumar)
 
 ---
 
