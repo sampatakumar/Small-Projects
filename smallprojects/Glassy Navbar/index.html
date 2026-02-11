@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>glassy Navbar</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="glassy Navbar" />
+    <meta name="keywords" content="glassy Navbar" />
+    <meta name="author" content="sampatakumar" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#0f0f0f" />
+    <meta name="msapplication-navbuttoncolor" content="#0f0f0f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+
+<body>
+
+    <!-- optimized by sampatakumar || design by Raul Dronca -->
+    <noscript>Please enable JavaScript to use this website.</noscript>
+
+    <div class="nav-wrap">
+        <div class="bubble active"></div>
+        <div class="bubble hover"></div>
+        <nav class="nav">
+            <a class="active" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <script>
+        const links = document.querySelectorAll("nav a");
+        links.forEach((link) => {
+            link.addEventListener("click", () => {
+                links.forEach((l) => l.classList.remove("active"));
+                link.classList.add("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
